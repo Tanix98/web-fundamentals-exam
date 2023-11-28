@@ -23,10 +23,10 @@ curl -s "$page_url" > "$page_file"
 # cat reads the data from the page_file variable and outputs the content, tr -d deletes newline and tabs
 cat "$page_file" | tr -d '\n\t' > "$page_file_one_line"
 # insert newline before opening table tag and after closing table tag for table element with the $table_class
+# sed searches for the closing table tag and inserts newline, s is the substitue command, g is the global command
 sed 's|<table class="sortable wikitable">|\n<table class="sortable wikitable">|g' "$page_file_one_line" | sed 's|</table>|</table>\n|g' > "$page_file_table_newline"
-#must get whitespace only applied to the closing tag of the one specific table, now it applies to all table closing tags which results in more lines and the wrong content to get extracted
 
-# only take the third line, the table element
+# only take the third line, the table containing the municipalities list
 sed -n '3p' "$page_file_table_newline" > "$table_only"
 
 # string literal - our future page -- inserting extracted table as body content
@@ -39,7 +39,7 @@ page_template='
     <title>Municipalities of Norway</title>
 </head>
 <body style="background-color: #f6f1f4; font-family: Tahoma, Geneva, Verdana, sans-serif;">
-    <h1>By Øystein Røstvik</h1>
+    <h1 style="margin-bottom: 30px; margin-top: 20px;">By Øystein Røstvik</h1>
     '"$(cat "$table_only")"'
 </body>
 </html>
