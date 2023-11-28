@@ -1,19 +1,10 @@
-
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>sfgsfsfdsfd</title>
-</head>
-<body>
-    <!DOCTYPE html>
 <html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-typography-survey-disabled vector-toc-available" lang="en" dir="ltr">
 <head>
 <meta charset="UTF-8">
 <title>List of municipalities of Norway - Wikipedia</title>
 <script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled vector-feature-custom-font-size-clientpref-0 vector-feature-client-preferences-disabled vector-feature-typography-survey-disabled vector-toc-available";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],
-"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"c8e7745b-2927-4d8c-bac3-721c90825f23","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"List_of_municipalities_of_Norway","wgTitle":"List of municipalities of Norway","wgCurRevisionId":1184594535,"wgRevisionId":1184594535,"wgArticleId":353016,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 errors: periodical ignored","CS1 foreign language sources (ISO 639-2)","CS1 Northern Sami-language sources (se)","CS1 German-language sources (de)","CS1 Norwegian-language sources (no)","Articles with short description","Short description is different from Wikidata","Articles containing Norwegian-language text","Articles containing French-language text","Articles containing Latin-language text",
+"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"98ed3099-5106-486f-afdf-dc4bf1a00467","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"List_of_municipalities_of_Norway","wgTitle":"List of municipalities of Norway","wgCurRevisionId":1184594535,"wgRevisionId":1184594535,"wgArticleId":353016,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 errors: periodical ignored","CS1 foreign language sources (ISO 639-2)","CS1 Northern Sami-language sources (se)","CS1 German-language sources (de)","CS1 Norwegian-language sources (no)","Articles with short description","Short description is different from Wikidata","Articles containing Norwegian-language text","Articles containing French-language text","Articles containing Latin-language text",
 "Articles containing Kven-language text","Articles containing Northern Sami-language text","Articles containing Lule Sami-language text","Articles containing Southern Sami-language text","Municipalities of Norway","Subdivisions of Norway","Lists of subdivisions of Norway","Administrative divisions in Europe","Second-level administrative divisions by country","Lists of populated places in Norway","Lists of municipalities"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"List_of_municipalities_of_Norway","wgRelevantArticleId":353016,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":6,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},
 "wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":100000,"wgULSCurrentAutonym":"English","wgCentralAuthMobileDomain":false,"wgEditSubmitButtonLabelPublish":true,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q5803752","wgCheckUserClientHintsHeadersJsApi":["architecture","bitness","brands","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGETopicsMatchModeEnabled":false,"wgGEStructuredTaskRejectionReasonTextInputEnabled":false,"wgGELevelingUpEnabledForUser":false};RLSTATE={"skins.vector.user.styles":"ready","ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","skins.vector.user":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.cite.styles":"ready","codex-search-styles":"ready",
 "skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.tablesorter.styles":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready","ext.wikimediaBadges":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mediawiki.page.media","ext.scribunto.logs","site","mediawiki.page.ready","jquery.tablesorter","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.switcher","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.compactlinks","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.cx.uls.quick.actions","wikibase.client.vector-2022",
@@ -9461,13 +9452,13 @@
 </div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td></tr></tbody></table><div></div></td></tr><tr><td class="navbox-abovebelow" colspan="2"><div><i>italics</i> denote a historical area; see <a href="https://commons.wikimedia.org/wiki/Category:Old_maps_of_Norway" class="extiw" title="commons:Category:Old maps of Norway">Historical maps of Norway</a></div></td></tr></tbody></table></div>
 <!-- 
 NewPP limit report
-Parsed by mw2409
-Cached time: 20231125184625
+Parsed by mw2386
+Cached time: 20231127174108
 Cache expiry: 1814400
 Reduced expiry: false
 Complications: [vary‐revision‐sha1, show‐toc]
-CPU time usage: 1.850 seconds
-Real time usage: 2.517 seconds
+CPU time usage: 1.756 seconds
+Real time usage: 2.314 seconds
 Preprocessor visited node count: 11768/1000000
 Post‐expand include size: 389416/2097152 bytes
 Template argument size: 29296/2097152 bytes
@@ -9475,25 +9466,25 @@ Highest expansion depth: 14/100
 Expensive parser function count: 22/500
 Unstrip recursion depth: 1/20
 Unstrip post‐expand size: 87616/5000000 bytes
-Lua time usage: 0.634/10.000 seconds
-Lua memory usage: 21347137/52428800 bytes
+Lua time usage: 0.622/10.000 seconds
+Lua memory usage: 21377409/52428800 bytes
 Number of Wikibase entities loaded: 1/400
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  968.281      1 -total
- 35.57%  344.406    545 Template:Sort
- 22.03%  213.306     31 Template:Navbox
- 15.82%  153.177      1 Template:Reflist
- 11.43%  110.693     27 Template:Lang
- 10.35%  100.204      1 Template:Politics_of_Norway
- 10.14%   98.219      1 Template:Sidebar_with_collapsible_lists
-  8.26%   80.005      1 Template:Cite_dictionary
-  6.87%   66.552      1 Template:Municipalities_of_Norway
-  6.51%   63.067      1 Template:Norway_topics
+100.00%  958.570      1 -total
+ 36.71%  351.881    545 Template:Sort
+ 19.94%  191.127     31 Template:Navbox
+ 15.45%  148.062      1 Template:Reflist
+ 11.56%  110.839     27 Template:Lang
+ 10.15%   97.263      1 Template:Politics_of_Norway
+  9.95%   95.331      1 Template:Sidebar_with_collapsible_lists
+  7.83%   75.047      1 Template:Cite_dictionary
+  6.43%   61.607      1 Template:Norway_topics
+  6.33%   60.713      1 Template:Municipalities_of_Norway
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:353016-0!canonical and timestamp 20231125184622 and revision id 1184594535. Rendering was triggered because: page-view
+<!-- Saved in parser cache with key enwiki:pcache:idhash:353016-0!canonical and timestamp 20231127174106 and revision id 1184594535. Rendering was triggered because: page-view
  -->
 </div><!--esi <esi:include src="/esitest-fa8a495983347898/content" /> --><noscript><img src="https://login.wikimedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
 <div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=List_of_municipalities_of_Norway&amp;oldid=1184594535">https://en.wikipedia.org/w/index.php?title=List_of_municipalities_of_Norway&amp;oldid=1184594535</a>"</div></div>
@@ -9544,10 +9535,7 @@ additional terms may apply.  By using this site, you agree to the <a href="//fou
 </li>
 	</ul>
 </div>
-<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1409","wgBackendResponseTime":183,"wgPageParseReport":{"limitreport":{"cputime":"1.850","walltime":"2.517","ppvisitednodes":{"value":11768,"limit":1000000},"postexpandincludesize":{"value":389416,"limit":2097152},"templateargumentsize":{"value":29296,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":22,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":87616,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  968.281      1 -total"," 35.57%  344.406    545 Template:Sort"," 22.03%  213.306     31 Template:Navbox"," 15.82%  153.177      1 Template:Reflist"," 11.43%  110.693     27 Template:Lang"," 10.35%  100.204      1 Template:Politics_of_Norway"," 10.14%   98.219      1 Template:Sidebar_with_collapsible_lists","  8.26%   80.005      1 Template:Cite_dictionary","  6.87%   66.552      1 Template:Municipalities_of_Norway","  6.51%   63.067      1 Template:Norway_topics"]},"scribunto":{"limitreport-timeusage":{"value":"0.634","limit":"10.000"},"limitreport-memusage":{"value":21347137,"limit":52428800},"limitreport-logs":"table#1 {\n    [\"size\"] = \"tiny\",\n}\n"},"cachereport":{"origin":"mw2409","timestamp":"20231125184625","ttl":1814400,"transientcontent":false}}});});</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw1405","wgBackendResponseTime":130,"wgPageParseReport":{"limitreport":{"cputime":"1.756","walltime":"2.314","ppvisitednodes":{"value":11768,"limit":1000000},"postexpandincludesize":{"value":389416,"limit":2097152},"templateargumentsize":{"value":29296,"limit":2097152},"expansiondepth":{"value":14,"limit":100},"expensivefunctioncount":{"value":22,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":87616,"limit":5000000},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  958.570      1 -total"," 36.71%  351.881    545 Template:Sort"," 19.94%  191.127     31 Template:Navbox"," 15.45%  148.062      1 Template:Reflist"," 11.56%  110.839     27 Template:Lang"," 10.15%   97.263      1 Template:Politics_of_Norway","  9.95%   95.331      1 Template:Sidebar_with_collapsible_lists","  7.83%   75.047      1 Template:Cite_dictionary","  6.43%   61.607      1 Template:Norway_topics","  6.33%   60.713      1 Template:Municipalities_of_Norway"]},"scribunto":{"limitreport-timeusage":{"value":"0.622","limit":"10.000"},"limitreport-memusage":{"value":21377409,"limit":52428800},"limitreport-logs":"table#1 {\n    [\"size\"] = \"tiny\",\n}\n"},"cachereport":{"origin":"mw2386","timestamp":"20231127174108","ttl":1814400,"transientcontent":false}}});});</script>
 <script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"List of municipalities of Norway","url":"https:\/\/en.wikipedia.org\/wiki\/List_of_municipalities_of_Norway","sameAs":"http:\/\/www.wikidata.org\/entity\/Q5803752","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q5803752","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2003-10-30T10:27:24Z","dateModified":"2023-11-11T11:44:55Z","image":"https:\/\/upload.wikimedia.org\/wikipedia\/commons\/9\/9b\/Norway_municipalities_2020_blank.svg","headline":"Wikimedia list article"}</script>
 </body>
 </html>
-</body>
-</html>
-
