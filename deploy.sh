@@ -10,7 +10,7 @@ page_file="${other_folder}/original.page.html.txt"
 page_file_one_line="${other_folder}/page.html.one.line.txt"
 page_file_table_newline="${other_folder}/page.html.table.newline.txt"
 table_only="${other_folder}/table.only.txt"
-final_page="page.html"
+final_page="index.html"
 
 # Create folder
 mkdir -p "$other_folder"
