@@ -25,11 +25,11 @@ cat "$page_file" | tr -d '\n\t' > "$page_file_one_line"
 # sed searches for the closing table tag and inserts newline, s is the substitue command, g is the global command
 sed 's|<table class="sortable wikitable">|\n<table class="sortable wikitable">|g' "$page_file_one_line" | sed 's|</table>|</table>\n|g' > "$page_file_table_newline"
 
-# only take the third line, the table containing the municipalities list
+# take only the third line, the table containing the municipalities list
 sed -n '3p' "$page_file_table_newline" > "$table_only"
 
-# string literal - our future page -- inserting extracted table as body content
-page_template='
+# create template for the html, insert extracted table as body content
+page_content='
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -44,7 +44,7 @@ page_template='
 </html>
 '
 
-# dumping variable contents into a file
-echo "$page_template" > "$final_page"
+# dump page content into index file
+echo "$page_content" > "$final_page"
 
 $SHELL
