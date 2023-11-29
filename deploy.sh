@@ -32,6 +32,58 @@ sed 's|<table class="sortable wikitable">|\n<table class="sortable wikitable">|g
 # take only the third line, the table containing the municipalities list
 sed -n '3p' "$page_file_table_newline" > "$table_only"
 
+
+# get the urls for each municipality, save the coordinates in a txt file
+# go through the entire code, add your own comments that explains what every specific part of the code does, do demonstrate understanding of the code
+# also need to create your own code that adds the data into the html as paragraphs, like how the table was inserted
+
+# do not run code if places data already exists
+if [[ ! -f  "$other_folder/places.txt" ]]; then
+
+    # extracting places and URLs to per-place Wiki pages -- as <a> elements
+    # # cat "${TMP_DIR}/1.html"|\
+    get_page "$page_url" |\
+        extract_elements 'table' 'class="sortable wikitable"' |\
+        extract_elements 'tr' |\
+        sed '1d' |\
+        get_inner_html |\
+        tags2columns 'td' '\t' |\
+        cut -d $'\t' -f 2 > "$other_folder/places.as.a.txt"
+
+    # extracting URLs and places as data
+    awk '
+        match($0, /href="[^"]*"/){
+                url=substr($0, RSTART+6, RLENGTH-7)
+            }
+        match($0, />[^<]*<\/a>/){
+                printf("%s%s\t%s\n", "https://en.wikipedia.org", url, substr($0, RSTART+1, RLENGTH-5))
+            } ' "$other_folder/places.as.a.txt"  > "$other_folder/places.as.data.txt"
+    echo "Extracted places as data"
+
+    # getting place coordinates per place
+    truncate -s 0 "$other_folder/places.with.coords.txt"
+    while read -r url place; do
+        page=$(get_page "$url")
+        lat=$(extract_elements 'span' 'class="latitude"' <<< "$page" |\
+            head -n 1 |\
+            get_inner_html |\
+            deg2dec)
+        lon=$(extract_elements 'span' 'class="longitude"' <<< "$page" |\
+            head -n 1 |\
+            get_inner_html |\
+            deg2dec)
+        printf "%s\t%s\t%s\t%s\n" $url $place $lat $lon >> "$other_folder/places.with.coords.txt"
+    done < "$other_folder/places.as.data.txt"
+
+    # converting the table with coordinates in a table with also API data (with empty values 1st)
+    # adding 4 fields: temperature, precipitation, forecastDateFor, lastUpdated, expiresAt
+    awk -F '\t' '
+        {
+            printf("%s\t\t\t\t\t\n", $0)
+        }
+    ' "$other_folder/places.with.coords.txt" > "$other_folder/places.txt"
+fi
+
 # create template for the html, insert extracted table as body content
 page_content='
 <!DOCTYPE html>
