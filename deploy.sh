@@ -37,8 +37,39 @@ page_content='
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Municipalities of Norway</title>
 </head>
-<body style="background-color: #f6f1f4; font-family: Tahoma, Geneva, Verdana, sans-serif;">
-    <h1 style="margin-bottom: 30px; margin-top: 20px;">By Øystein Røstvik</h1>
+<style>
+    body {
+        background-color: #f6f1f4;
+        font-family: Tahoma, Geneva, Verdana, sans-serif;
+    }
+    a {
+        color: #be0000;
+    }
+    a:hover {
+        color: #810000;
+    }
+    #name {
+        font-style: italic;
+    }
+    #portrait {
+        border-radius: 100%;
+        max-width: 150px;
+        max-height: 150px;
+    }
+    span {
+        display: flex;
+        gap: 20px;
+        flex-wrap: wrap;
+        align-items: center;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+</style>
+<body>
+    <span>
+        <h1 id="name">By Øystein Røstvik</h1>
+        <img id="portrait" src="https://avatars.githubusercontent.com/u/91118560?v=4" alt="Øystein Røstvik">
+    </span>
     '"$(cat "$table_only")"'
 </body>
 </html>
