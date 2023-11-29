@@ -41,6 +41,7 @@ page_content='
     body {
         background-color: #f6f1f4;
         font-family: Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
     }
     a {
         color: #be0000;
@@ -56,7 +57,7 @@ page_content='
         max-width: 150px;
         max-height: 150px;
     }
-    span {
+    div {
         display: flex;
         gap: 20px;
         flex-wrap: wrap;
@@ -64,12 +65,15 @@ page_content='
         margin-bottom: 30px;
         margin-top: 20px;
     }
+    th, td {
+        padding: 10px 15px 10px 15px;
+    }
 </style>
 <body>
-    <span>
+    <div>
         <h1 id="name">By Øystein Røstvik</h1>
         <img id="portrait" src="https://avatars.githubusercontent.com/u/91118560?v=4" alt="Øystein Røstvik">
-    </span>
+    </div>
     '"$(cat "$table_only")"'
 </body>
 </html>
