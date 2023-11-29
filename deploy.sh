@@ -4,8 +4,10 @@ set -x
 # set variables
 # change user_name to your own raspberry pi username
 user_name="oystrost"
+# change if the project directory is located somewhere other than the desktop
+directory_location="Desktop"
+other_folder="/home/${user_name}/${directory_location}/web-fundamentals-exam/other"
 page_url="https://en.wikipedia.org/wiki/List_of_municipalities_of_Norway"
-other_folder="/home/${user_name}/Desktop/web-fundamentals-exam/other"
 page_file="${other_folder}/original.page.html.txt"
 page_file_one_line="${other_folder}/page.html.one.line.txt"
 page_file_table_newline="${other_folder}/page.html.table.newline.txt"
